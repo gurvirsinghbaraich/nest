@@ -2,5 +2,16 @@
 
 use Nest\Framework\Http\Route;
 
-Route::GET("/", []);
-Route::POST("/", []);
+class HomeController
+{
+  public function index()
+  {
+  }
+
+  public function path()
+  {
+  }
+}
+
+Route::GET("/:category/:categoryId", [HomeController::class, "path"]);
+Route::GET("/", [HomeController::class, "index"]);
