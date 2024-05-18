@@ -1,13 +1,19 @@
 {
-    "name": "nest/nest",
-    "description": "A skeleton application for the Nest Framework.",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Gurvir Singh",
-            "email": "gurvirsingh.baraich@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "nest/nest",
+  "description": "A skeleton application for the Nest Framework.",
+  "type": "project",
+  "license": "MIT",
+  "version": "0.0.2",
+  "authors": [
+    {
+      "name": "Gurvir Singh",
+      "email": "gurvirsingh.baraich@gmail.com"
+    }
+  ],
+  "require": {
+    "nest/framework": "^0.0.11"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^7.0"
+  }
 }
