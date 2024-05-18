@@ -1,0 +1,15 @@
+services:
+  # Proxy service
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    
+  # Framework 
+  app:
+    build:
+      dockerfile: ./php/Dockerfile      
+    volumes:
+      - ../:/app
