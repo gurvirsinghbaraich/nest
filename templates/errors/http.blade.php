@@ -1,9 +1,13 @@
+<?php
+http_response_code($statusCode);
+?>
+
 @extends('errors.layout')
 
 @section('status-code')
-  404
+  {{ $statusCode }}
 @endsection
 
 @section('status-message')
-  Page Not Found
+  {{ $statusMessage }}
 @endsection
