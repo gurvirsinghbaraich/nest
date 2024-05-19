@@ -3,7 +3,7 @@
   "description": "A skeleton application for the Nest Framework.",
   "type": "project",
   "license": "MIT",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "authors": [
     {
       "name": "Gurvir Singh",
@@ -11,11 +11,6 @@
     }
   ],
   "require": {
-    "nest/framework": "^0.0.12",
-    "filp/whoops": "^2.15",
-    "jenssegers/blade": "^2.0"
-  },
-  "require-dev": {
-    "symfony/var-dumper": "^7.0"
+    "nest/framework": "^0.0.18"
   }
 }
