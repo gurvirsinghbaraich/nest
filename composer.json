@@ -16,6 +16,6 @@
     }
   },
   "require": {
-    "nest/framework": "^0.0.20"
+    "nest/framework": "^0.0.21"
   }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0675fc6f218bb016c7bea94f32f36428",
+    "content-hash": "09d83a6f4263434401e84341a829e755",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -1053,16 +1053,16 @@
         },
         {
             "name": "nest/framework",
-            "version": "0.0.20",
+            "version": "0.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gurvirsinghbaraich/nest-framework.git",
-                "reference": "662412fa9bdfa55f92b682ad19636427039dace2"
+                "reference": "9f028b41ff6f37f5427a68dfc3af7c3196841107"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gurvirsinghbaraich/nest-framework/zipball/662412fa9bdfa55f92b682ad19636427039dace2",
-                "reference": "662412fa9bdfa55f92b682ad19636427039dace2",
+                "url": "https://api.github.com/repos/gurvirsinghbaraich/nest-framework/zipball/9f028b41ff6f37f5427a68dfc3af7c3196841107",
+                "reference": "9f028b41ff6f37f5427a68dfc3af7c3196841107",
                 "shasum": ""
             },
             "require": {
@@ -1092,9 +1092,9 @@
             "description": "A Nest Framework!",
             "support": {
                 "issues": "https://github.com/gurvirsinghbaraich/nest-framework/issues",
-                "source": "https://github.com/gurvirsinghbaraich/nest-framework/tree/v0.0.20"
+                "source": "https://github.com/gurvirsinghbaraich/nest-framework/tree/v0.0.21"
             },
-            "time": "2024-05-20T17:26:26+00:00"
+            "time": "2024-05-21T07:58:53+00:00"
         },
         {
             "name": "psr/clock",
